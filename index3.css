@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+  }
+  th {
+    background-color: #7ce7f7;
+    color: rgb(17, 15, 15);
+  }
+  tr:nth-child(3n+2) {
+    background-color: rgb(0, 255, 21);
+  }
+  tr:nth-child(3n) {
+    background-color: rgb(226, 15, 15);
+  }
+  tr:nth-child(3n+1) {
+    background-color: rgb(243, 139, 4);
+  }
+
+  
+  
